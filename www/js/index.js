@@ -1,7 +1,6 @@
 function barcodescanner(){
 	alert("aaa");
 	cordova.plugins.barcodeScanner.scan(
-	alert("xxxx");
       function (result) {
           alert("We got a barcode\n" +
                 "Result: " + result.text + "\n" +
